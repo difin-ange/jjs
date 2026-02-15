@@ -1,0 +1,30 @@
+:root {
+    --header-color: rgb(112, 108, 108);
+    --text-color: rgb(255, 255, 255);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: var(--header-color);
+    height: 100px;
+    width: 100%;
+}
+
+header a {
+    color: var(--text-color);
+    font-size: 2rem;
+}
+
+button {
+    justify-content: center;
+    
+}
+
